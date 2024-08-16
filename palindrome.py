@@ -12,3 +12,4 @@ def palindrome():
     else:
         print("Is not prime number")
 palindrome()  
+

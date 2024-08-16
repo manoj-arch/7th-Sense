@@ -1,12 +1,12 @@
 num = int (input("Enter the Number: "))
-flag = False
+flag=0
 
 if num==1:
     print(num,"is not  prime")
 elif num > 1:
     for i in range(2,num):
         if(num % 2 == 0):
-            flag = True
+            flag=1
             break
     if flag:
         print("is not prime number: ",num)
